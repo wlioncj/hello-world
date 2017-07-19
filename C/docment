@@ -1,8 +1,0 @@
-int 转换 char:
-Approach(#1)
-char = int + '0'
-Approach(#2)
-char = to_string(int)  //C++11
-
-String function:
-string.push_back(char)  在字符串之后加入一个字符
