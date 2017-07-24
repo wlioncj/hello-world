@@ -17,5 +17,5 @@ C++单向链表中的一句是什么意思 <br/>
 这其中ListNode(int x) : val(x), next(NULL) {}，这句是什么意思啊？ <br/>
 其实这个是结构体的构造函数，与类的构造函数相同，冒号后面的是初始化列表，也就是给成员val初始化为传入的参数x，next初始化为NULL  <br/>
 
-To be continue:
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+To be continue:  <br/>
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
