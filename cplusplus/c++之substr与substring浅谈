@@ -27,3 +27,6 @@ substring 方法使用start和end两者中的较小值作为子字符串的起�
 如果start或end为NaN或者负数，那么将其替换为0
 子字符串的长度等于start和end之差的绝对值。
 例如：在strvar.substring(0,3)和strvar.substring(3,0)返回的子字符串的长度是3。
+
+
+NaN，是Not a Number的缩写，在IEEE浮点数算术标准（IEEE 754）中定义，表示一些特殊数值（无穷与非数值（NaN）），为许多CPU与浮点运算器所采用。
