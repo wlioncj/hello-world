@@ -1,0 +1,29 @@
+c++ 之substr与substring浅谈
+
+区别：主要是两者的参数不同
+功能：相似
+
+substr：   返回一个从指定位置开始的指定长度的子字符串
+substring: 返回位于string对象中指定位置的子字符串
+
+用法：
+stringvar.substr(start,[length])
+参数
+stringvar 必选项。要提取子字符串的字符串文字或string对象。
+start     必选项。所需的子字符串的起始位置。字符串中的第一个字符的索引为0.
+lengh     可选项。在返回的子字符串中应包含的字符个数。
+
+说明  如果 length为 0或者负数，将返回一个空字符串。如果没有指定该参数，则子字符串将延续到 stringvar的最后。
+
+strvariable.substring(start,end)
+参数
+start: 指明子字符串的起始位置，该索引从 0开始起算。
+end:   指明子字符串的结束位置，该索引从 0开始起算。
+
+说明
+substring 方法将返回一个包含从start到最后的（不包含end）的子字符串的字符串。
+substring 方法使用start和end两者中的较小值作为子字符串的起始点。
+例如：strvar.substring(0,3)和strvar.substring(3,0)将返回相同的子字符串。
+如果start或end为NaN或者负数，那么将其替换为0
+子字符串的长度等于start和end之差的绝对值。
+例如：在strvar.substring(0,3)和strvar.substring(3,0)返回的子字符串的长度是3。
